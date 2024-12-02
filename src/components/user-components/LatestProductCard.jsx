@@ -6,7 +6,7 @@ export const LatestProductCard = (item) => {
   return (
     <section className="mx-4">
       <div>
-        <Link to="productDetails/:id">
+        <Link to={`productDetails/${item?.item?._id}`}>
           <div className=" w-[150px] h-[180px] bg-slate-500 rounded-xl overflow-hidden ">
             <img
               src={item?.item?.thumbnail}

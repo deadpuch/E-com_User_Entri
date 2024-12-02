@@ -3,6 +3,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
+      Edu: ["Edu AU VIC WA NT Pre", "cursive"],
       outFit: ["Outfit", "sans-serif"],
       sans: ["Poppins", "serif"],
     },
@@ -10,8 +11,7 @@ export default {
   },
   plugins: [require("daisyui")],
 
-  daisyui:{
-    themes: ["light", "dark",],
-    
-  }
+  daisyui: {
+    themes: ["light", "dark"],
+  },
 };
